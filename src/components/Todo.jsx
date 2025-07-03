@@ -36,7 +36,7 @@ const Todo = () => {
                 <input
                     type="text"
                     placeholder="Enter Your Task"
-                    className="flex-grow p-2 border-b-2 border-gray-300 rounded focus:outline focus:border-blue-500"
+                    className="flex-grow p-2 border-b-2 border-gray-300 bg-white rounded focus:outline focus:border-blue-500"
                     name="text"
                     id="addTodo"
                     value={todoText}
@@ -60,7 +60,7 @@ const Todo = () => {
                         name="text"
                         onChange={(e)=> handleSearchTodo(e.target.value)}
                         id="addTodo"
-                        className="flex-grow rounded p-2 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 sm:mr-4"
+                        className="flex-grow rounded p-2 border-b-2 border-gray-300 bg-white focus:outline-none focus:border-blue-500 sm:mr-4"
                     />
                     <button onClick={saveTodo} className="p-2 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none">
                         <BsSearch />

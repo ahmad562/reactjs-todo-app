@@ -12,7 +12,7 @@ const FilterButton = () => {
         <select 
             value={currenFilter}
             onChange={(e)=> handleFIlter(e.target.value)}
-            className="text-sm px-2 py-1 border-blue-300 focus:outline-none"
+            className="text-sm px-2 py-1 bg-white border-blue-300 focus:outline-none"
             >
             <option value='All'>Default</option>
             <option value='COMPLETED'>Completed</option>
